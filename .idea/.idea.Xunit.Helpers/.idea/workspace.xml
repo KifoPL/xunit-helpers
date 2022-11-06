@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f6cad35-0405-4a5a-acc5-559348cdb1bd" name="Changes" comment="added nuget props" />
+    <list default="true" id="5f6cad35-0405-4a5a-acc5-559348cdb1bd" name="Changes" comment="fixing logo" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,6 +11,9 @@
     <option name="groupingKeys">
       <option value="directory" />
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1fc58f831e5abc28bed38ce4be7e7198b5b2c2e5dbf893649a4ac19b25f136/IAssertionScope.cs" root0="SKIP_HIGHLIGHTING" />
@@ -49,7 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1667048862282</updated>
       <workItem from="1667048872239" duration="12849000" />
-      <workItem from="1667761005019" duration="1874000" />
+      <workItem from="1667761005019" duration="2184000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1667761382788</created>
@@ -65,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667762281465</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fixing logo">
+      <created>1667763254151</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667763254151</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,7 +144,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="init" />
     <MESSAGE value="added nuget props" />
-    <option name="LAST_COMMIT_MESSAGE" value="added nuget props" />
+    <MESSAGE value="fixing logo" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing logo" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

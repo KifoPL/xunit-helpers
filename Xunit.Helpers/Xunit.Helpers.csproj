@@ -13,6 +13,7 @@
         <RepositoryUrl>https://github.com/KifoPL/xunit-helpers</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <PackageIcon>logo.png</PackageIcon>
+        <PublishWithAspNetCoreTargetManifest>false</PublishWithAspNetCoreTargetManifest>
     </PropertyGroup>
 
     <ItemGroup>
