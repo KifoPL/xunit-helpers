@@ -1,7 +1,7 @@
-name: Build and test
+name: Test CI
 on:
   workflow_run:
-    workflows: ["Build check"]
+    workflows: ["Build CI"]
     types:
       - completed
 env:
