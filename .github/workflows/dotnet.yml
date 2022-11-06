@@ -20,9 +20,22 @@ jobs:
       uses: actions/setup-dotnet@v3
       with:
         dotnet-version: ${{ env.DOTNET_VERSION }}
+    - uses: actions/cache@v2
+      with:
+        path: ~/.nuget/packages
+        key: ${{ runner.os }}-nuget-${{ hashFiles('**/packages.lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-nuget
     - name: Install dependencies
       run: dotnet restore
     - name: Build
       run: dotnet build --configuration Release --no-restore
-    - name: Test
-      run: dotnet test --no-restore --verbosity normal
+    - name: unit tests for Contoso Business Layer
+      uses: zyborg/dotnet-tests-report@v1
+      with:
+        report_name: xunit-helper-tests
+        report_title: xUnit Helpers Tests
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        gist_name: xunit-helper-tests.md
+        gist_badge_label: 'xUnit Helpers: %Counters_passed%/%Counters_total%'
+        gist_token: ${{ secrets.GIST_TOKEN }}
