@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f6cad35-0405-4a5a-acc5-559348cdb1bd" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Xunit.Helpers/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xunit.Helpers/logo.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Xunit.Helpers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Xunit.Helpers/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Xunit.Helpers/Xunit.Helpers.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Xunit.Helpers/Xunit.Helpers.csproj" afterDir="false" />
-    </list>
+    <list default="true" id="5f6cad35-0405-4a5a-acc5-559348cdb1bd" name="Changes" comment="added nuget props" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +49,7 @@
       <option name="presentableId" value="Default" />
       <updated>1667048862282</updated>
       <workItem from="1667048872239" duration="12849000" />
-      <workItem from="1667761005019" duration="1159000" />
+      <workItem from="1667761005019" duration="1874000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1667761382788</created>
@@ -63,7 +58,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667761382788</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added nuget props">
+      <created>1667762281465</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667762281465</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,7 +133,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="added nuget props" />
+    <option name="LAST_COMMIT_MESSAGE" value="added nuget props" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

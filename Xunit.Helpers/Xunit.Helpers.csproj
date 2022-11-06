@@ -12,11 +12,15 @@
         <PackageProjectUrl>https://github.com/KifoPL/xunit-helpers</PackageProjectUrl>
         <RepositoryUrl>https://github.com/KifoPL/xunit-helpers</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
-        <PackageIcon>logo.ico</PackageIcon>
+        <PackageIcon>logo.png</PackageIcon>
     </PropertyGroup>
 
     <ItemGroup>
         <PackageReference Include="xunit" Version="2.4.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="logo.png" Pack="true" PackagePath=""/>
     </ItemGroup>
 
 </Project>
