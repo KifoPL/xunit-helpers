@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f6cad35-0405-4a5a-acc5-559348cdb1bd" name="Changes" comment="fixing logo" />
+    <list default="true" id="5f6cad35-0405-4a5a-acc5-559348cdb1bd" name="Changes" comment="Updated package manifest">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Xunit.Helpers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Xunit.Helpers/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xunit.Helpers.Tests/Xunit.Helpers.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Xunit.Helpers.Tests/Xunit.Helpers.Tests.csproj" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1667048862282</updated>
       <workItem from="1667048872239" duration="12849000" />
-      <workItem from="1667761005019" duration="2184000" />
+      <workItem from="1667761005019" duration="2732000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1667761382788</created>
@@ -75,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667763254151</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updated package manifest">
+      <created>1667764494821</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667764494821</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,7 +155,8 @@
     <MESSAGE value="init" />
     <MESSAGE value="added nuget props" />
     <MESSAGE value="fixing logo" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing logo" />
+    <MESSAGE value="Updated package manifest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated package manifest" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

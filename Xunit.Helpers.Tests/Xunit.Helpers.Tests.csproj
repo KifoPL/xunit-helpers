@@ -7,6 +7,10 @@
         <TargetFrameworks>net6.0;net7.0</TargetFrameworks>
     </PropertyGroup>
 
+    <PropertyGroup>
+        <PublishWithAspNetCoreTargetManifest>false</PublishWithAspNetCoreTargetManifest>
+    </PropertyGroup>
+
     <ItemGroup>
         <PackageReference Include="FluentAssertions" Version="6.8.0" />
         <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.1.0" />
