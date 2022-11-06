@@ -5,6 +5,14 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <IsPackable>true</IsPackable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>xUnit Helpers</Title>
+        <Authors>KifoPL</Authors>
+        <Description>A package containing helpful methods for easier work with xUnit tools</Description>
+        <PackageProjectUrl>https://github.com/KifoPL/xunit-helpers</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/KifoPL/xunit-helpers</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageIcon>logo.ico</PackageIcon>
     </PropertyGroup>
 
     <ItemGroup>

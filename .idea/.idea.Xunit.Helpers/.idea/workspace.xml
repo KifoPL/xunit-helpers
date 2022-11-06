@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f6cad35-0405-4a5a-acc5-559348cdb1bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xunit.Helpers.Tests/TestDummies/TestEnum.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xunit.Helpers.Tests/TheoryDataHelpersTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xunit.Helpers.Tests/Usings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xunit.Helpers.Tests/Xunit.Helpers.Tests.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xunit.Helpers.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xunit.Helpers/TheoryDataHelper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xunit.Helpers/Xunit.Helpers.csproj" afterDir="false" />
+    <list default="true" id="5f6cad35-0405-4a5a-acc5-559348cdb1bd" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Xunit.Helpers/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xunit.Helpers/logo.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Xunit.Helpers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Xunit.Helpers/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xunit.Helpers/Xunit.Helpers.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Xunit.Helpers/Xunit.Helpers.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,15 +34,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;SolutionBuilderGeneralOptionsPage&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "SolutionBuilderGeneralOptionsPage",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="1897af43-3181-4273-8fd0-11e43415a86a" />
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -57,8 +54,16 @@
       <option name="presentableId" value="Default" />
       <updated>1667048862282</updated>
       <workItem from="1667048872239" duration="12849000" />
-      <workItem from="1667761005019" duration="313000" />
+      <workItem from="1667761005019" duration="1159000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1667761382788</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667761382788</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +130,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
