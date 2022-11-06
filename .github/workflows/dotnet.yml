@@ -1,10 +1,9 @@
 name: Build and test
 on:
-  push:
-  pull_request:
-    branches: [ master ]
-    paths-ignore:
-    - 'README.md'
+  workflow_run:
+    workflows: ["Build check"]
+    types:
+      - completed
 env:
   DOTNET_VERSION: '6.0.x'
 jobs:
@@ -39,4 +38,3 @@ jobs:
         gist_name: xunit-helper-tests.md
         gist_badge_label: 'xUnit Helpers: %Counters_passed%/%Counters_total%'
         gist_token: ${{ secrets.GIST_TOKEN }}
-        set_check_status_from_test_outcome: true
