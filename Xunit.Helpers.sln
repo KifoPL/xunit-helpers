@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xunit.Helpers", "Xunit.Helpers\Xunit.Helpers.csproj", "{3DB7DBB2-D638-4674-A8A3-A996947DDEA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xunit.Helpers.Tests", "Xunit.Helpers.Tests\Xunit.Helpers.Tests.csproj", "{BDB5329B-77AD-4536-8422-6A7CCAA5ACCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DB7DBB2-D638-4674-A8A3-A996947DDEA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DB7DBB2-D638-4674-A8A3-A996947DDEA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DB7DBB2-D638-4674-A8A3-A996947DDEA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DB7DBB2-D638-4674-A8A3-A996947DDEA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDB5329B-77AD-4536-8422-6A7CCAA5ACCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDB5329B-77AD-4536-8422-6A7CCAA5ACCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDB5329B-77AD-4536-8422-6A7CCAA5ACCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDB5329B-77AD-4536-8422-6A7CCAA5ACCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

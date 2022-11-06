@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5f6cad35-0405-4a5a-acc5-559348cdb1bd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xunit.Helpers.Tests/TestDummies/TestEnum.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xunit.Helpers.Tests/TheoryDataHelpersTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xunit.Helpers.Tests/Usings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xunit.Helpers.Tests/Xunit.Helpers.Tests.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xunit.Helpers.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xunit.Helpers/TheoryDataHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xunit.Helpers/Xunit.Helpers.csproj" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1fc58f831e5abc28bed38ce4be7e7198b5b2c2e5dbf893649a4ac19b25f136/IAssertionScope.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/21d1bf7cb032629df6ab560ec6ad02110cf6e40ce18f5a368ebf742991517/AssertionScope.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4fb56a7c82919a8be469e96d31ac7f72f585eb7feb11e65cd38cf761c55c8c5/TheoryData.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5592b6c4d129c2c2d2e552847dd47209b368db795ac7642b49555c8943a9cb9/XUnit2TestFramework.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GoJArHLeO3tPPGgbDRXUH6xQMK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;SolutionBuilderGeneralOptionsPage&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="1897af43-3181-4273-8fd0-11e43415a86a" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5f6cad35-0405-4a5a-acc5-559348cdb1bd" name="Changes" comment="" />
+      <created>1667048862282</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667048862282</updated>
+      <workItem from="1667048872239" duration="12849000" />
+      <workItem from="1667761005019" duration="313000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnitTestsCoverage.Settings">
+    <option name="coveragePercentColumnWidth" value="150" />
+    <option name="sortOrder" value="DESCENDING" />
+    <option name="sortedColumn" value="1" />
+    <option name="symbolColumnWidth" value="221" />
+    <coverage-tree-state>
+      <expand>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 51% 546/1124" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 51% 546/1124" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Xunit.Helpers.Tests 93% 42/620" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 51% 546/1124" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Xunit.Helpers.Tests 93% 42/620" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="(1.0.0.0, net7.0) 93% 21/310" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 51% 546/1124" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Xunit.Helpers.Tests 93% 42/620" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="(1.0.0.0, net7.0) 93% 21/310" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Xunit.Helpers.Tests 93% 21/310" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 51% 546/1124" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Xunit.Helpers.Tests 93% 42/620" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="(1.0.0.0, net6.0) 93% 21/310" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 51% 546/1124" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Xunit.Helpers.Tests 93% 42/620" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="(1.0.0.0, net6.0) 93% 21/310" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Xunit.Helpers.Tests 93% 21/310" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+      </expand>
+      <select />
+    </coverage-tree-state>
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
