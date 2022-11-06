@@ -20,6 +20,7 @@ jobs:
       run: dotnet restore
     - name: Build
       run: dotnet build --configuration Release --no-restore
-    - name: dotnet-tests-report-testing-fix
-      uses: jason-edstrom/dotnet-tests-report-testing-fix@v1.4.4
+    - name: Test Reporter
+      uses: dorny/test-reporter@v1.6.0
+
       
