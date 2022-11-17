@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f6cad35-0405-4a5a-acc5-559348cdb1bd" name="Changes" comment="updated README.md">
+    <list default="true" id="5f6cad35-0405-4a5a-acc5-559348cdb1bd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Xunit.Helpers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Xunit.Helpers/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xunit.Helpers.Tests/TheoryDataHelpersTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Xunit.Helpers.Tests/TheoryDataHelpersTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xunit.Helpers.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Xunit.Helpers.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xunit.Helpers/TheoryDataHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Xunit.Helpers/TheoryDataHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xunit.Helpers/Xunit.Helpers.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Xunit.Helpers/Xunit.Helpers.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +21,10 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="more-checks" />
       </map>
     </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GithubProjectSettings">
@@ -41,6 +45,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1fc58f831e5abc28bed38ce4be7e7198b5b2c2e5dbf893649a4ac19b25f136/IAssertionScope.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/21d1bf7cb032629df6ab560ec6ad02110cf6e40ce18f5a368ebf742991517/AssertionScope.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/37b0f5671c9ec5e0ebfa36442083cfb16b96f66ee5f50de616884d61ab49c1f/Tuple.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4fb56a7c82919a8be469e96d31ac7f72f585eb7feb11e65cd38cf761c55c8c5/TheoryData.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5592b6c4d129c2c2d2e552847dd47209b368db795ac7642b49555c8943a9cb9/XUnit2TestFramework.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -62,11 +67,11 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;SolutionBuilderGeneralOptionsPage&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="1897af43-3181-4273-8fd0-11e43415a86a" />
+  <component name="RunManager" selected="9853f34e-a955-4283-87fc-f3995300ad07" />
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -77,6 +82,8 @@
       <updated>1667048862282</updated>
       <workItem from="1667048872239" duration="12849000" />
       <workItem from="1667761005019" duration="6150000" />
+      <workItem from="1667846640016" duration="3673000" />
+      <workItem from="1668701236414" duration="3537000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1667761382788</created>
@@ -127,55 +134,26 @@
       <option name="project" value="LOCAL" />
       <updated>1667774390258</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added status checks, renamed workflows">
+      <created>1667774951805</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667774951805</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="UnitTestsCoverage.Settings">
-    <option name="coveragePercentColumnWidth" value="150" />
+    <option name="coveragePercentColumnWidth" value="84" />
     <option name="sortOrder" value="DESCENDING" />
     <option name="sortedColumn" value="1" />
-    <option name="symbolColumnWidth" value="221" />
+    <option name="symbolColumnWidth" value="121" />
     <coverage-tree-state>
-      <expand>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 51% 546/1124" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 51% 546/1124" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Xunit.Helpers.Tests 93% 42/620" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 51% 546/1124" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Xunit.Helpers.Tests 93% 42/620" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="(1.0.0.0, net7.0) 93% 21/310" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 51% 546/1124" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Xunit.Helpers.Tests 93% 42/620" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="(1.0.0.0, net7.0) 93% 21/310" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Xunit.Helpers.Tests 93% 21/310" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 51% 546/1124" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Xunit.Helpers.Tests 93% 42/620" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="(1.0.0.0, net6.0) 93% 21/310" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 51% 546/1124" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Xunit.Helpers.Tests 93% 42/620" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="(1.0.0.0, net6.0) 93% 21/310" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Xunit.Helpers.Tests 93% 21/310" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </coverage-tree-state>
   </component>
@@ -201,7 +179,8 @@
     <MESSAGE value="Updated dependency resolve" />
     <MESSAGE value="updated targeted frameworks" />
     <MESSAGE value="updated README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated README.md" />
+    <MESSAGE value="Added status checks, renamed workflows" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added status checks, renamed workflows" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
