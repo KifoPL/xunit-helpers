@@ -10,6 +10,22 @@ public static class TheoryDataHelper
         return data;
     }
 
+    public static TheoryData<T> ToTheoryData<T>(this IEnumerable<object[]> source)
+    {
+        var data = new TheoryData<T>();
+        foreach (object[] item in source) data.Add((T)item[0]);
+
+        return data;
+    }
+
+    public static TheoryData<T> ToTheoryData<T>(this IEnumerable<Tuple<T>> source)
+    {
+        var data = new TheoryData<T>();
+        foreach (var item in source) data.Add(item.Item1);
+
+        return data;
+    }
+
     public static TheoryData<T1, T2> ToTheoryData<T1, T2>(this IEnumerable<(T1, T2)> source)
     {
         var data = new TheoryData<T1, T2>();
@@ -25,17 +41,11 @@ public static class TheoryDataHelper
 
         return data;
     }
-
-    public static TheoryData<T1, T2> ToTheoryData<T1, T2>(this (T1, T2) source)
+    
+    public static TheoryData<T1, T2> ToTheoryData<T1, T2>(this IEnumerable<Tuple<T1, T2>> source)
     {
-        var data = new TheoryData<T1, T2> { { source.Item1, source.Item2 } };
-
-        return data;
-    }
-
-    public static TheoryData<T1, T2> ToTheoryData<T1, T2>(this object[] source)
-    {
-        var data = new TheoryData<T1, T2> { { (T1)source[0], (T2)source[1] } };
+        var data = new TheoryData<T1, T2>();
+        foreach (var item in source) data.Add(item.Item1, item.Item2);
 
         return data;
     }
@@ -61,17 +71,14 @@ public static class TheoryDataHelper
 
         return data;
     }
-
-    public static TheoryData<T1, T2, T3> ToTheoryData<T1, T2, T3>(this (T1, T2, T3) source)
+    
+    public static TheoryData<T1, T2, T3> ToTheoryData<T1, T2, T3>(this IEnumerable<Tuple<T1, T2, T3>> source)
     {
-        var data = new TheoryData<T1, T2, T3> { { source.Item1, source.Item2, source.Item3 } };
-
-        return data;
-    }
-
-    public static TheoryData<T1, T2, T3> ToTheoryData<T1, T2, T3>(this object[] source)
-    {
-        var data = new TheoryData<T1, T2, T3> { { (T1)source[0], (T2)source[1], (T3)source[2] } };
+        var data = new TheoryData<T1, T2, T3>();
+        foreach (var item in source)
+            data.Add(item.Item1,
+                     item.Item2,
+                     item.Item3);
 
         return data;
     }
@@ -99,17 +106,15 @@ public static class TheoryDataHelper
 
         return data;
     }
-
-    public static TheoryData<T1, T2, T3, T4> ToTheoryData<T1, T2, T3, T4>(this (T1, T2, T3, T4) source)
+    
+    public static TheoryData<T1, T2, T3, T4> ToTheoryData<T1, T2, T3, T4>(this IEnumerable<Tuple<T1, T2, T3, T4>> source)
     {
-        var data = new TheoryData<T1, T2, T3, T4> { { source.Item1, source.Item2, source.Item3, source.Item4 } };
-
-        return data;
-    }
-
-    public static TheoryData<T1, T2, T3, T4> ToTheoryData<T1, T2, T3, T4>(this object[] source)
-    {
-        var data = new TheoryData<T1, T2, T3, T4> { { (T1)source[0], (T2)source[1], (T3)source[2], (T4)source[3] } };
+        var data = new TheoryData<T1, T2, T3, T4>();
+        foreach (var item in source)
+            data.Add(item.Item1,
+                     item.Item2,
+                     item.Item3,
+                     item.Item4);
 
         return data;
     }
@@ -140,19 +145,16 @@ public static class TheoryDataHelper
 
         return data;
     }
-
-    public static TheoryData<T1, T2, T3, T4, T5> ToTheoryData<T1, T2, T3, T4, T5>(this (T1, T2, T3, T4, T5) source)
+    
+    public static TheoryData<T1, T2, T3, T4, T5> ToTheoryData<T1, T2, T3, T4, T5>(this IEnumerable<Tuple<T1, T2, T3, T4, T5>> source)
     {
-        var data = new TheoryData<T1, T2, T3, T4, T5>
-            { { source.Item1, source.Item2, source.Item3, source.Item4, source.Item5 } };
-
-        return data;
-    }
-
-    public static TheoryData<T1, T2, T3, T4, T5> ToTheoryData<T1, T2, T3, T4, T5>(this object[] source)
-    {
-        var data = new TheoryData<T1, T2, T3, T4, T5>
-            { { (T1)source[0], (T2)source[1], (T3)source[2], (T4)source[3], (T5)source[4] } };
+        var data = new TheoryData<T1, T2, T3, T4, T5>();
+        foreach (var item in source)
+            data.Add(item.Item1,
+                     item.Item2,
+                     item.Item3,
+                     item.Item4,
+                     item.Item5);
 
         return data;
     }
@@ -186,20 +188,18 @@ public static class TheoryDataHelper
 
         return data;
     }
-
+    
     public static TheoryData<T1, T2, T3, T4, T5, T6> ToTheoryData
-        <T1, T2, T3, T4, T5, T6>(this (T1, T2, T3, T4, T5, T6) source)
+        <T1, T2, T3, T4, T5, T6>(this IEnumerable<Tuple<T1, T2, T3, T4, T5, T6>> source)
     {
-        var data = new TheoryData<T1, T2, T3, T4, T5, T6>
-            { { source.Item1, source.Item2, source.Item3, source.Item4, source.Item5, source.Item6 } };
-
-        return data;
-    }
-
-    public static TheoryData<T1, T2, T3, T4, T5, T6> ToTheoryData<T1, T2, T3, T4, T5, T6>(this object[] source)
-    {
-        var data = new TheoryData<T1, T2, T3, T4, T5, T6>
-            { { (T1)source[0], (T2)source[1], (T3)source[2], (T4)source[3], (T5)source[4], (T6)source[5] } };
+        var data = new TheoryData<T1, T2, T3, T4, T5, T6>();
+        foreach (var item in source)
+            data.Add(item.Item1,
+                     item.Item2,
+                     item.Item3,
+                     item.Item4,
+                     item.Item5,
+                     item.Item6);
 
         return data;
     }
@@ -235,22 +235,19 @@ public static class TheoryDataHelper
 
         return data;
     }
-
+    
     public static TheoryData<T1, T2, T3, T4, T5, T6, T7> ToTheoryData
-        <T1, T2, T3, T4, T5, T6, T7>(this (T1, T2, T3, T4, T5, T6, T7) source)
+        <T1, T2, T3, T4, T5, T6, T7>(this IEnumerable<Tuple<T1, T2, T3, T4, T5, T6, T7>> source)
     {
-        var data = new TheoryData<T1, T2, T3, T4, T5, T6, T7>
-            { { source.Item1, source.Item2, source.Item3, source.Item4, source.Item5, source.Item6, source.Item7 } };
-
-        return data;
-    }
-
-    public static TheoryData<T1, T2, T3, T4, T5, T6, T7> ToTheoryData<T1, T2, T3, T4, T5, T6, T7>(this object[] source)
-    {
-        var data = new TheoryData<T1, T2, T3, T4, T5, T6, T7>
-        {
-            { (T1)source[0], (T2)source[1], (T3)source[2], (T4)source[3], (T5)source[4], (T6)source[5], (T7)source[6] }
-        };
+        var data = new TheoryData<T1, T2, T3, T4, T5, T6, T7>();
+        foreach (var item in source)
+            data.Add(item.Item1,
+                     item.Item2,
+                     item.Item3,
+                     item.Item4,
+                     item.Item5,
+                     item.Item6,
+                     item.Item7);
 
         return data;
     }
@@ -288,31 +285,20 @@ public static class TheoryDataHelper
 
         return data;
     }
-
+    
     public static TheoryData<T1, T2, T3, T4, T5, T6, T7, T8> ToTheoryData
-        <T1, T2, T3, T4, T5, T6, T7, T8>(this (T1, T2, T3, T4, T5, T6, T7, T8) source)
+        <T1, T2, T3, T4, T5, T6, T7, T8>(this IEnumerable<Tuple<T1, T2, T3, T4, T5, T6, T7, Tuple<T8>>> source)
     {
-        var data = new TheoryData<T1, T2, T3, T4, T5, T6, T7, T8>
-        {
-            {
-                source.Item1, source.Item2, source.Item3, source.Item4, source.Item5, source.Item6, source.Item7,
-                source.Item8
-            }
-        };
-
-        return data;
-    }
-
-    public static TheoryData<T1, T2, T3, T4, T5, T6, T7, T8> ToTheoryData
-        <T1, T2, T3, T4, T5, T6, T7, T8>(this object[] source)
-    {
-        var data = new TheoryData<T1, T2, T3, T4, T5, T6, T7, T8>
-        {
-            {
-                (T1)source[0], (T2)source[1], (T3)source[2], (T4)source[3], (T5)source[4], (T6)source[5], (T7)source[6],
-                (T8)source[7]
-            }
-        };
+        var data = new TheoryData<T1, T2, T3, T4, T5, T6, T7, T8>();
+        foreach (var item in source)
+            data.Add(item.Item1,
+                     item.Item2,
+                     item.Item3,
+                     item.Item4,
+                     item.Item5,
+                     item.Item6,
+                     item.Item7,
+                     item.Rest.Item1);
 
         return data;
     }
@@ -352,31 +338,21 @@ public static class TheoryDataHelper
 
         return data;
     }
-
+    
     public static TheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9> ToTheoryData
-        <T1, T2, T3, T4, T5, T6, T7, T8, T9>(this (T1, T2, T3, T4, T5, T6, T7, T8, T9) source)
+        <T1, T2, T3, T4, T5, T6, T7, T8, T9>(this IEnumerable<Tuple<T1, T2, T3, T4, T5, T6, T7, Tuple<T8, T9>>> source)
     {
-        var data = new TheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9>
-        {
-            {
-                source.Item1, source.Item2, source.Item3, source.Item4, source.Item5, source.Item6, source.Item7,
-                source.Item8, source.Item9
-            }
-        };
-
-        return data;
-    }
-
-    public static TheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9> ToTheoryData
-        <T1, T2, T3, T4, T5, T6, T7, T8, T9>(this object[] source)
-    {
-        var data = new TheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9>
-        {
-            {
-                (T1)source[0], (T2)source[1], (T3)source[2], (T4)source[3], (T5)source[4], (T6)source[5], (T7)source[6],
-                (T8)source[7], (T9)source[8]
-            }
-        };
+        var data = new TheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9>();
+        foreach (var item in source)
+            data.Add(item.Item1,
+                     item.Item2,
+                     item.Item3,
+                     item.Item4,
+                     item.Item5,
+                     item.Item6,
+                     item.Item7,
+                     item.Rest.Item1,
+                     item.Rest.Item2);
 
         return data;
     }
@@ -418,31 +394,22 @@ public static class TheoryDataHelper
 
         return data;
     }
-
+    
     public static TheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10> ToTheoryData
-        <T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>(this (T1, T2, T3, T4, T5, T6, T7, T8, T9, T10) source)
+        <T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>(this IEnumerable<Tuple<T1, T2, T3, T4, T5, T6, T7, Tuple<T8, T9, T10>>> source)
     {
-        var data = new TheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>
-        {
-            {
-                source.Item1, source.Item2, source.Item3, source.Item4, source.Item5, source.Item6, source.Item7,
-                source.Item8, source.Item9, source.Item10
-            }
-        };
-
-        return data;
-    }
-
-    public static TheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10> ToTheoryData
-        <T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>(this object[] source)
-    {
-        var data = new TheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>
-        {
-            {
-                (T1)source[0], (T2)source[1], (T3)source[2], (T4)source[3], (T5)source[4], (T6)source[5], (T7)source[6],
-                (T8)source[7], (T9)source[8], (T10)source[9]
-            }
-        };
+        var data = new TheoryData<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>();
+        foreach (var item in source)
+            data.Add(item.Item1,
+                     item.Item2,
+                     item.Item3,
+                     item.Item4,
+                     item.Item5,
+                     item.Item6,
+                     item.Item7,
+                     item.Rest.Item1,
+                     item.Rest.Item2,
+                     item.Rest.Item3);
 
         return data;
     }
