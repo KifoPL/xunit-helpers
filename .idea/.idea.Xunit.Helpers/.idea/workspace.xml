@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f6cad35-0405-4a5a-acc5-559348cdb1bd" name="Changes" comment="">
+    <list default="true" id="5f6cad35-0405-4a5a-acc5-559348cdb1bd" name="Changes" comment="improved qodana pipeline">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Xunit.Helpers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Xunit.Helpers/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Xunit.Helpers.Tests/TheoryDataHelpersTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Xunit.Helpers.Tests/TheoryDataHelpersTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Xunit.Helpers.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Xunit.Helpers.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Xunit.Helpers/TheoryDataHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Xunit.Helpers/TheoryDataHelper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Xunit.Helpers/Xunit.Helpers.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Xunit.Helpers/Xunit.Helpers.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,18 +17,11 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="more-checks" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
-  </component>
-  <component name="GithubProjectSettings">
-    <option name="branchProtectionPatterns">
-      <list>
-        <option value="CI\/CD" />
-      </list>
-    </option>
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="recentNewPullRequestHead">
@@ -48,10 +37,12 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/37b0f5671c9ec5e0ebfa36442083cfb16b96f66ee5f50de616884d61ab49c1f/Tuple.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4fb56a7c82919a8be469e96d31ac7f72f585eb7feb11e65cd38cf761c55c8c5/TheoryData.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5592b6c4d129c2c2d2e552847dd47209b368db795ac7642b49555c8943a9cb9/XUnit2TestFramework.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/michalsitek/RiderProjects/Xunit.Helpers/Xunit.Helpers.Tests/TheoryDataHelpersSadTests.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectId" id="2GoJArHLeO3tPPGgbDRXUH6xQMK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -67,11 +58,17 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;SolutionBuilderGeneralOptionsPage&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/michalsitek/Library/Application Support/JetBrains/Rider2022.3/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/michalsitek/Library/Application Support/JetBrains/Rider2022.3/resharper-host/SourcesCache&quot;,
+      &quot;/Users/michalsitek/.local/share/Symbols/src&quot;
+    ]
   }
 }</component>
-  <component name="RunManager" selected="9853f34e-a955-4283-87fc-f3995300ad07" />
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -84,6 +81,9 @@
       <workItem from="1667761005019" duration="6150000" />
       <workItem from="1667846640016" duration="3673000" />
       <workItem from="1668701236414" duration="3537000" />
+      <workItem from="1669999403147" duration="993000" />
+      <workItem from="1671318087713" duration="1700000" />
+      <workItem from="1671371656799" duration="1334000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1667761382788</created>
@@ -141,19 +141,38 @@
       <option name="project" value="LOCAL" />
       <updated>1667774951805</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added XML documentation, added qodana CI">
+      <created>1671319189249</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1671319189249</updated>
+    </task>
+    <task id="LOCAL-00010" summary="improved qodana pipeline">
+      <created>1671372378911</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1671372378912</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="UnitTestsCoverage.Settings">
-    <option name="coveragePercentColumnWidth" value="84" />
+    <option name="coveragePercentColumnWidth" value="50" />
     <option name="sortOrder" value="DESCENDING" />
     <option name="sortedColumn" value="1" />
-    <option name="symbolColumnWidth" value="121" />
+    <option name="symbolColumnWidth" value="268" />
     <coverage-tree-state>
-      <expand />
+      <expand>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 100% 0/559" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+      </expand>
       <select />
     </coverage-tree-state>
   </component>
@@ -180,7 +199,9 @@
     <MESSAGE value="updated targeted frameworks" />
     <MESSAGE value="updated README.md" />
     <MESSAGE value="Added status checks, renamed workflows" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added status checks, renamed workflows" />
+    <MESSAGE value="Added XML documentation, added qodana CI" />
+    <MESSAGE value="improved qodana pipeline" />
+    <option name="LAST_COMMIT_MESSAGE" value="improved qodana pipeline" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

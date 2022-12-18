@@ -13,11 +13,15 @@
         <RepositoryUrl>https://github.com/KifoPL/xunit-helpers</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <PackageIcon>logo.png</PackageIcon>
-        <PackageVersion>2.0.0</PackageVersion>
+        <PackageVersion>2.0.1</PackageVersion>
     </PropertyGroup>
 
     <PropertyGroup>
         <PublishWithAspNetCoreTargetManifest>false</PublishWithAspNetCoreTargetManifest>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+      <DocumentationFile>bin\Release\net6.0\Xunit.Helpers.xml</DocumentationFile>
     </PropertyGroup>
 
     <ItemGroup>

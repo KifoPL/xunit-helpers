@@ -3,7 +3,7 @@ using Xunit.Helpers.Tests.TestDummies;
 
 namespace Xunit.Helpers.Tests;
 
-public class TheoryDataHelpersTests
+public class TheoryDataHelpersHappyTests
 {
     [Fact]
     public void TestEnumData_T1()
