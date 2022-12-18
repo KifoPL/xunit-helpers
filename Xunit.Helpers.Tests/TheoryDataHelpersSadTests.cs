@@ -1,5 +1,4 @@
 using FluentAssertions;
-using Xunit.Helpers.Tests.TestDummies;
 
 namespace Xunit.Helpers.Tests;
 
